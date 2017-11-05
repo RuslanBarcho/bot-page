@@ -1,0 +1,16 @@
+#add_button{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#second {
+    padding-top: 30px !important;
+}
+.container{
+    padding: 10px;
+    align-content: center;
+}
+.ui.two.buttons{
+    padding: 10px;
+}
