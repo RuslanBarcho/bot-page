@@ -13,9 +13,15 @@
     </head>
     <body>
     <div class="ui container">
+        <img class="ui image" src="content/faoY-fI-hFo.jpg" id="header">
         <div class="ui cards">
             <div class="card">
-                <div class="content">
+                <div class="ui container" id="descr_test">
+                    <div class="ui violet button">Добавить бота</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content" id="crd_header">
                     <div class="header">
                         Бот 1
                     </div>
@@ -27,26 +33,24 @@
                     <div class="header">
                         Действия
                     </div>
-                    <div class="ui stackable grid">
-                        <div class="six wide column">
-                            <div class="ui container">
-                                <div class="ui basic green button">Approve</div>
-                                <div class="ui basic red button">Decline</div>
+                        <div class="ui container" id="cont">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <div class="ui blue button" id="butt">Редактировать</div>
+                                    <div class="ui orange  button" id="butt">Перезапуск</div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui red button" id="butt">Удалить</div>
+                                    <div class="ui violet  button" id="butt">Sample</div>
+                                </div>
                             </div>
                         </div>
-                        <div class="six wide column">
-                            <div class="ui container">
-                                <div class="ui basic green button">Approve</div>
-                                <div class="ui basic red button">Decline</div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="card">
                 <div class="content">
                     <div class="header">
-                        Бот 1
+                        Бот 2
                     </div>
                 <div class="description">
                     Some details about bot
@@ -56,18 +60,21 @@
                     <div class="header">
                         Действия
                     </div>
-                    <div class="ui two buttons">
-                        <div class="ui basic green button">Approve</div>
-                        <div class="ui basic red button">Decline</div>
-                    </div>
-                    <div class="ui two buttons">
-                        <div class="ui basic green button">Approve</div>
-                        <div class="ui basic red button">Decline</div>
-                    </div>
+                        <div class="ui container" id="cont">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <div class="ui blue button" id="butt">Редактировать</div>
+                                    <div class="ui orange  button" id="butt">Перезапуск</div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui red button" id="butt">Удалить</div>
+                                    <div class="ui violet  button" id="butt">Sample</div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
-        <div class ="ui inverted violet button" id="add_button">Добавить бота</div>
         </div>
     <script>$(document).ready(function() {
                 

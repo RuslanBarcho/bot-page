@@ -14,3 +14,27 @@
 .ui.two.buttons{
     padding: 10px;
 }
+#descr_test{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+#butt{
+    width: 121px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#crd_header{
+    max-height: 73.16px !important;
+}
+#header{
+    padding-bottom: 10px;
+}
+#cont{
+    padding: 0px;
+    padding-top: 10px;
+}
